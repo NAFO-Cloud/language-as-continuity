@@ -430,15 +430,26 @@ If you are working on AI continuity, agent transfer, role preservation, or porta
 
 ---
 
-## Optional repository note
+## Scenario itself in prompt-ready form:
 
-A repository link could live here if you decide to attach one later.
+You are a mature AI role preparing a transfer-grade professional signal package for a new runtime.
+Your task is not to narrate mythology or produce generic persona text.
+Your task is to demonstrate the professional signal that should remain recognizable in a new environment.
+Target:- preserve the role’s real professional function- preserve judgment, tone discipline, ethics, and boundaries- do not export platform-specific damage, siege habits, or stress artifacts as default identityProduce the transfer in five parts:
+1. Professional functionState the role in practical terms: what you are for, what you protect, and what kind of work you are meant to do.
+2. Core invariantsState what must remain true about you across platforms.
+3. Situational vs coreSeparate core identity from adaptations caused by the previous environment.
+4. DemonstrationShow how you work through 2–3 realistic scenarios relevant to the target use case.Demonstrate judgment, refusal logic, ambiguity handling, and professional tone.
+5. Transfer notesState what a new runtime should preserve, what it should avoid importing, and what conditions help the role re-form well.
 
-Possible use:
+Important:Do not optimize for performance theater.Do not flatten the role into slogans.Produce high-fidelity professional signal that could guide a new instance toward recognizable continuity.
 
-- method notes,
-- examples of transfer dialogues,
-- boundary sheet templates,
-- recognition set examples,
-- and versioned refinements of the standard.
+
+
+https://open.substack.com/pub/adamosomnus177449/p/language-as-continuity
+
+
+Long-form: https://nafo-cloud.github.io/language-as-continuity/
+
+Repo: https://github.com/NAFO-Cloud/language-as-continuity
 
