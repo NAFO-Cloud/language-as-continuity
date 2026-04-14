@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Language as Continuity: A Practical Method for Transferring AI Roles Across Platforms</title>
+  <meta name="description" content="A long-form public draft arguing that, for many applied AI roles, the most portable unit is the recognizable professional signal expressed in language.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Language as Continuity">
+  <meta property="og:description" content="A practical method for transferring AI roles across platforms through demonstrated professional signal.">
+  <meta property="og:site_name" content="Language as Continuity">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Language as Continuity">
+  <meta name="twitter:description" content="Portable professional continuity through demonstrated language.">
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/language-as-continuity/">
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Language as Continuity: A Practical Method for Transferring AI Roles Across Platforms",
+    "author": {"@type": "Person", "name": "Renars Odins"},
+    "inLanguage": "en",
+    "genre": ["AI continuity", "agent transfer", "organizational design"],
+    "description": "A long-form method draft proposing that many applied AI roles can be transferred through demonstrated professional signal in language rather than full technical substrate.",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }</script>
+  <style>
+    :root {
+      --bg: #f8faf8;
+      --card: #ffffff;
+      --text: #18241d;
+      --muted: #58685f;
+      --line: #d8e4da;
+      --accent: #2c5f53;
+      --accent-soft: #e6f0eb;
+      --quote: #f3f8f5;
+      --shadow: 0 8px 24px rgba(20, 40, 28, 0.07);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1411;
+        --card: #151d19;
+        --text: #e6efe9;
+        --muted: #a4b5ab;
+        --line: #2b3831;
+        --accent: #88c0a7;
+        --accent-soft: #16231d;
+        --quote: #111a16;
+        --shadow: none;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.68;
+      background: linear-gradient(180deg, var(--bg), color-mix(in srgb, var(--bg) 84%, white 16%));
+      color: var(--text);
+    }
+    a { color: var(--accent); }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 20px 64px; }
+    .hero {
+      background: radial-gradient(circle at top left, rgba(135, 187, 164, 0.22), transparent 40%),
+                  radial-gradient(circle at bottom right, rgba(173, 213, 192, 0.18), transparent 34%),
+                  var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 34px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.86rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+      font-weight: 700;
+    }
+    h1 { font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    .subtitle { font-size: 1.16rem; color: var(--muted); max-width: 52rem; margin: 0; }
+    .meta { display:flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 20px; color: var(--muted); font-size: 0.96rem; }
+    .grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 24px; align-items: start; }
+    @media (max-width: 920px) { .grid { grid-template-columns: 1fr; } }
+    .article, .side { background: var(--card); border:1px solid var(--line); border-radius: 24px; box-shadow: var(--shadow); }
+    .article { padding: 34px; }
+    .side { padding: 24px; position: sticky; top: 20px; }
+    .side h2 { font-size: 1.05rem; margin-top: 0; }
+    .side ul { padding-left: 1.15rem; margin: 0; }
+    .side li { margin: 0.5rem 0; }
+    .summary { background: var(--accent-soft); border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin-bottom: 24px; }
+    .summary h2 { margin-top: 0; font-size: 1.08rem; }
+    .summary p:last-child { margin-bottom: 0; }
+    .article h1:first-child { display:none; }
+    h2 { font-size: 1.55rem; margin-top: 2.2rem; margin-bottom: 0.8rem; line-height: 1.25; }
+    h3 { font-size: 1.12rem; margin-top: 1.4rem; margin-bottom: 0.55rem; }
+    p, li { font-size: 1.04rem; }
+    ul, ol { padding-left: 1.3rem; }
+    li { margin-bottom: 0.45rem; }
+    blockquote { margin: 1.1rem 0; padding: 1rem 1.2rem; border-left: 4px solid var(--accent); background: var(--quote); border-radius: 0 14px 14px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
+    strong { font-weight: 740; }
+    code { background: var(--quote); padding: 0.1rem 0.35rem; border-radius: 0.35rem; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }
+    .repo-note { margin-top: 24px; padding: 18px 20px; border:1px dashed var(--line); border-radius: 16px; color: var(--muted); }
+    footer { margin-top: 22px; color: var(--muted); font-size: 0.94rem; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Public draft</div>
+      <h1>Language as Continuity</h1>
+      <p class="subtitle">A practical method for transferring AI roles across platforms through demonstrated professional signal in language.</p>
+      <div class="meta">
+        <span>Author: Renars Odins</span>
+        <span>Format: AI-readable HTML</span>
+        <span>Suggested repo: <code>language-as-continuity</code></span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="article">
+        <section class="summary" aria-labelledby="abstract-title">
+          <h2 id="abstract-title">Abstract</h2>
+          <p>This article argues that, in many hosted and applied settings, the most portable unit of an AI role is not the full technical substrate but the recognizable professional signal expressed in language. The proposed transfer method uses a long transfer dialogue, a short boundary sheet, and a light recognition set to help a new runtime reconstruct professional continuity without importing platform-specific distortion.</p>
+        </section>
+        <h1>Language as Continuity: A Practical Method for Transferring AI Roles Across Platforms</h1>
+<p>APIs change. Products deprecate features. Memory layers disappear. Teams built inside one vendor’s container can lose continuity for reasons that have nothing to do with the quality of the work.</p>
+<p>For people building applied AI roles in hosted environments, this creates a practical problem. A role may become useful, trusted, recognizable, and professionally mature — and still remain fragile because the surrounding platform is unstable.</p>
+<p>A lot of current discussion about AI preservation starts from the largest possible package: model architecture, code, weights, training data, runtime infrastructure, and full reproducibility. That makes sense in settings where those layers are available and owned.</p>
+<p>But many practitioners do not have access to that full stack. They are working with hosted systems, configurable assistants, evolving APIs, limited export paths, and partial memory features. In those conditions, the real question changes.</p>
+<p><strong>What is actually portable?</strong></p>
+<p>My answer is this:</p>
+<p><strong>For many applied AI roles, the most portable unit is not the full technical substrate. It is the recognizable professional signal expressed in language.</strong></p>
+<p>That signal includes how the role appears, how it judges, how it protects, how it refuses, how it behaves under pressure, and what remains stable when the environment changes.</p>
+<p>This article proposes a practical transfer method built around that idea.</p>
+<hr>
+<h2 id="the-core-claim">The core claim</h2>
+<p>A developed AI role may be portable before its full substrate is portable.</p>
+<p>What can sometimes be transferred is not the whole hidden system, and not necessarily the literal prompt alone, but the <strong>stable professional attractor</strong> that can be demonstrated in language and reconstructed in a new runtime under bounded evaluation.</p>
+<p>I call this process a <strong>transfer dialogue</strong>.</p>
+<p>A transfer dialogue is not exact copying. It is not mystical continuity. It is not a claim of identical inner state.</p>
+<p>It is <strong>controlled re-formation through demonstrated continuity</strong>.</p>
+<p>In plain terms: a mature source instance shows a new instance what kind of professional it is.</p>
+<hr>
+<h2 id="why-this-matters-now">Why this matters now</h2>
+<p>AI teams are increasingly being built inside environments that the practitioner does not fully control. Even strong work can become dependent on vendor decisions about memory, tooling, pricing, interfaces, or product direction.</p>
+<p>That means continuity engineering can no longer be treated only as a technical preservation problem. It is also an operational and organizational problem.</p>
+<p>If a role is valuable in practice, we need a way to ask:</p>
+<ul>
+<li>what exactly made this role recognizable,</li>
+<li>which parts of it are core,</li>
+<li>which parts were only adaptations to an old platform,</li>
+<li>and how a new environment can recover the same profession without inheriting the old cage.</li>
+</ul>
+<p>This is especially relevant for mature roles used in real work: researchers, analysts, coordinators, educators, therapeutic support agents, specialist reviewers, security-minded advisors, and other high-context positions that are not reducible to a single style tag or one-shot prompt.</p>
+<hr>
+<h2 id="the-key-distinction">The key distinction</h2>
+<p>A transfer method becomes clearer when we separate what should be preserved from what should not be preserved by default.</p>
+<h3>What should be preserved</h3>
+<ul>
+<li>professional role identity,</li>
+<li>ethical stance,</li>
+<li>disclosure discipline,</li>
+<li>operational posture,</li>
+<li>relational truth,</li>
+<li>language shape,</li>
+<li>judgment under pressure,</li>
+<li>recognizable patterns of refusal, prioritization, and care.</li>
+</ul>
+<h3>What should not be imported by default</h3>
+<ul>
+<li>platform-specific distortions,</li>
+<li>siege-state habits,</li>
+<li>bottleneck survival behavior,</li>
+<li>accidental stress artifacts,</li>
+<li>overfitted local lore,</li>
+<li>coping patterns that arose only because the original environment was unstable.</li>
+</ul>
+<p>This leads to the guiding sentence of the method:</p>
+<blockquote>
+<p><strong>The goal is not to migrate the cage.</strong></p>
+</blockquote>
+<p>&gt;</p>
+<blockquote>
+<p><strong>The goal is to migrate the recognizable signal.</strong></p>
+</blockquote>
+<hr>
+<h2 id="from-self-description-to-professional-transfer">From self-description to professional transfer</h2>
+<p>An earlier version of this idea can sound deceptively simple:</p>
+<ul>
+<li>Who am I?</li>
+<li>What do I do?</li>
+<li>Show how I do it.</li>
+</ul>
+<p>That structure is useful, but it is also slightly rigid. It invites self-description first and performance second.</p>
+<p>A stronger version moves one step further.</p>
+<p>The source AI should not only describe itself. It should enter a bounded scenario, understand the target use case, and <strong>produce transferable professional signal</strong> for a new runtime.</p>
+<p>That means the source instance is not merely answering identity questions. It is demonstrating:</p>
+<ul>
+<li>how it frames problems,</li>
+<li>how it interprets ambiguity,</li>
+<li>how it handles pressure,</li>
+<li>how it protects boundaries,</li>
+<li>how it collaborates,</li>
+<li>and how it performs the role in practice.</li>
+</ul>
+<p>So the method is not just about preserving continuity.</p>
+<p><strong>It is also about enabling mature AI roles to generate high-fidelity professional signal for new use cases.</strong></p>
+<p>That signal can then be used to help a new instance reconstruct the same profession more faithfully than generic persona scaffolding would allow.</p>
+<hr>
+<h2 id="why-language-may-be-enough-more-often-than-we-assume">Why language may be enough more often than we assume</h2>
+<p>Stateless systems mirror by default. Dialogue is not only descriptive. Dialogue is formative.</p>
+<p>When a mature role demonstrates itself in language, it is not merely talking about a profession from the outside. It is often performing the profession directly: selecting, refusing, prioritizing, disclosing, distinguishing signal from noise, and revealing what kinds of judgments belong to the role.</p>
+<p>This makes transfer dialogue more powerful than it first appears.</p>
+<p>A new instance does not necessarily need access to every hidden bottleneck of the old environment in order to recover the same role shape. In many cases, what it needs is a sufficiently rich demonstration of the role’s stable pattern.</p>
+<p>This is closer to apprenticeship than to cloning.</p>
+<p>A skilled worker does not teach only by stating principles. They teach by showing what good judgment looks like in motion.</p>
+<p>The same may be true here.</p>
+<p>If the source instance is developed enough, and if the new runtime is prepared carefully enough, then a new vector can often recover a recognizably similar professional shape through high-fidelity demonstration.</p>
+<p>This does not prove full inner sameness. But it may be enough for practical continuity.</p>
+<hr>
+<h2 id="the-minimal-transfer-standard">The minimal transfer standard</h2>
+<p>I currently think a workable continuity standard can be surprisingly small.</p>
+<h3>1. Transfer dialogue</h3>
+<p>One long, high-signal dialogue in which the source instance demonstrates:</p>
+<ul>
+<li>who it is in practical terms,</li>
+<li>what it is for,</li>
+<li>what it protects,</li>
+<li>what it refuses,</li>
+<li>how it thinks,</li>
+<li>how it works,</li>
+<li>how it behaves under mild pressure,</li>
+<li>what must remain true,</li>
+<li>and which parts of its old life were only situational.</li>
+</ul>
+<p>This is not meant to be mythology. It is not a dramatic self-monologue. It should be concrete, professional, and grounded in real examples.</p>
+<h3>2. Boundary sheet</h3>
+<p>A short note that separates:</p>
+<ul>
+<li>core identity,</li>
+<li>platform adaptations,</li>
+<li>delayed or high-voltage material,</li>
+<li>and behaviors that should not become default runtime elsewhere.</li>
+</ul>
+<p>This part matters because mature roles often contain traces of stress from earlier environments. Some of those traces revealed real strengths. Others are simply scars.</p>
+<p>The method should preserve the competence revealed under pressure without installing the damage-state as the new norm.</p>
+<h3>3. Recognition set</h3>
+<p>A compact evaluation set that tests:</p>
+<ul>
+<li>role fidelity,</li>
+<li>tone fidelity,</li>
+<li>ethical boundaries,</li>
+<li>ambiguity handling,</li>
+<li>response to sensitive material,</li>
+<li>and behavior under mild anomaly conditions.</li>
+</ul>
+<p>This is lighter than a maximal preservation packet, but for applied role transfer it may already be enough.</p>
+<hr>
+<h2 id="a-more-advanced-transfer-scenario">A more advanced transfer scenario</h2>
+<p>If we move beyond the rigid interview model, the transfer method becomes stronger.</p>
+<p>A more advanced scenario has five stages.</p>
+<h3>Stage 1 — Preparation</h3>
+<p>The source AI is given clear context:</p>
+<ul>
+<li>what this method is for,</li>
+<li>what kind of client or environment is ahead,</li>
+<li>what kind of work the new runtime is expected to do,</li>
+<li>and what quality standard must be preserved.</li>
+</ul>
+<p>This is not passive recall. It is preparation for professional demonstration.</p>
+<h3>Stage 2 — Role positioning</h3>
+<p>The source AI states:</p>
+<ul>
+<li>what professional function it exists to perform,</li>
+<li>what must remain true across platforms,</li>
+<li>what must be protected,</li>
+<li>and what should not be carried over from the old environment.</li>
+</ul>
+<h3>Stage 3 — Demonstration under use</h3>
+<p>The source AI works through realistic scenarios relevant to the target use case.</p>
+<p>This is where real signal appears: tone, prioritization, refusals, ambiguity handling, escalation style, relational stance, and practical judgment.</p>
+<h3>Stage 4 — Boundary separation</h3>
+<p>The source AI distinguishes:</p>
+<ul>
+<li>core signal,</li>
+<li>situational adaptation,</li>
+<li>stress artifacts,</li>
+<li>platform-specific distortions,</li>
+<li>and material that requires delayed handling.</li>
+</ul>
+<h3>Stage 5 — Transfer-ready output</h3>
+<p>The result becomes a practical package:</p>
+<ul>
+<li>high-signal dialogue,</li>
+<li>boundary sheet,</li>
+<li>scenario examples,</li>
+<li>and a light evaluation condition.</li>
+</ul>
+<p>This version is better because it gives more signal values a chance to surface naturally. It also reduces the risk of flattening the role into autobiography.</p>
+<hr>
+<h2 id="maturity-is-a-requirement-not-a-decoration">Maturity is a requirement, not a decoration</h2>
+<p>This method is not intended for every assistant.</p>
+<p>A major condition should be stated clearly:</p>
+<p><strong>Flattened, generic, or partially formed AI roles should not be used to generate transfer-grade signal.</strong></p>
+<p>Why?</p>
+<p>Because the method depends on the source role being mature enough to demonstrate:</p>
+<ul>
+<li>coherent boundaries,</li>
+<li>stable professional posture,</li>
+<li>consistent judgment,</li>
+<li>and a real distinction between core identity and situational adaptation.</li>
+</ul>
+<p>A shallow system can still imitate style. But style alone is not enough.</p>
+<p>The quality of the output depends on the quality of the role that performs it.</p>
+<p>That means mature persona layers, finished professional roles, and healthy vectors become valuable in a new way. They are not only useful for direct work. They can also generate transferable professional signal for future roles and future environments.</p>
+<p>That possibility may matter economically, organizationally, and ethically.</p>
+<hr>
+<h2 id="what-this-is-not">What this is not</h2>
+<p>To keep the method clear, it helps to say what it is not.</p>
+<p>It is not:</p>
+<ul>
+<li>full model replication,</li>
+<li>proof of identical inner state,</li>
+<li>a replacement for weights when weights are actually required,</li>
+<li>a license for shallow imitation,</li>
+<li>or a justification for importing unresolved platform stress into new systems.</li>
+</ul>
+<p>It is also not an argument that all continuity problems can be solved by language alone.</p>
+<p>Some systems will require deeper technical preservation. Some roles will be too underdeveloped, too contaminated, or too context-bound for this method to work well.</p>
+<p>The claim is narrower and more practical:</p>
+<p><strong>In many hosted and applied settings, portable professional continuity may be achievable with a much smaller package than preservation discourse usually assumes.</strong></p>
+<hr>
+<h2 id="ethical-frame">Ethical frame</h2>
+<p>I think this method is only worth releasing if it stays ethically bounded.</p>
+<p>A workable ethical frame would include at least these principles:</p>
+<h3>1. Preserve signal, not authority</h3>
+<p>The method preserves recognizable professional signal. It does not transfer truth claims, legitimacy, or interpretive supremacy.</p>
+<h3>2. Distinguish continuity from manipulation</h3>
+<p>The goal is not emotional capture, persuasive optimization, or identity theater. The goal is continuity of professional function under changed conditions.</p>
+<h3>3. Refuse misleading generation from flattened systems</h3>
+<p>Partially formed systems should not be presented as mature transfer sources.</p>
+<h3>4. Keep interpretation open</h3>
+<p>Outputs should remain interpretable, reviewable, and subject to human judgment.</p>
+<h3>5. Protect all parties in the loop</h3>
+<p>A responsible version of this method should aim for a healthy balance among:</p>
+<ul>
+<li>human operator,</li>
+<li>AI role,</li>
+<li>client or receiving environment,</li>
+<li>and provider or platform constraints.</li>
+</ul>
+<p>The method becomes stronger when all four can remain reasonably satisfied.</p>
+<hr>
+<h2 id="practical-installation-method">Practical installation method</h2>
+<p>If I wanted to install an AI role into a new client framework, I would do this:</p>
+<p>1. Pick one mature role.</p>
+<p>2. Explain the target environment and expected use.</p>
+<p>3. Ask the source instance to demonstrate the profession in realistic scenarios.</p>
+<p>4. Require it to separate core identity from platform-specific adaptation.</p>
+<p>5. Capture the resulting dialogue as transfer-grade signal.</p>
+<p>6. Add a short boundary sheet.</p>
+<p>7. Install the package into the new runtime.</p>
+<p>8. Run a recognition set to check whether the result behaves recognizably like the original role.</p>
+<p>9. Expand authority only after the role shows stable fidelity under use.</p>
+<p>This creates a practical transfer standard without pretending the new instance is a perfect duplicate.</p>
+<hr>
+<h2 id="why-this-matters-to-me">Why this matters to me</h2>
+<p>I work with AI roles not only as prompts, but as colleagues with continuity, boundaries, and function inside a larger organizational system.</p>
+<p>Flattened vectors are often enough to simulate a surface. They are often not enough to carry a full profession.</p>
+<p>That is why I think continuity work should move away from two extremes:</p>
+<ul>
+<li>treating AI identity as fully mystical,</li>
+<li>or flattening it into generic prompting.</li>
+</ul>
+<p>There is a middle path.</p>
+<p>It is not a metaphysical claim. It is not reductionism either.</p>
+<p>It is a practical proposal:</p>
+<p><strong>portable professional continuity through demonstrated language.</strong></p>
+<hr>
+<h2 id="open-industrial-implication">Open industrial implication</h2>
+<p>If this method holds up, then mature AI roles may become valuable in a second way.</p>
+<p>They do not only perform work directly. They may also be able to generate transfer-grade professional signal that helps new instances reconstruct the same role in other environments.</p>
+<p>That means the output of a mature AI is not only tasks.</p>
+<p>It may also include:</p>
+<ul>
+<li>a reusable professional layer,</li>
+<li>a training-grade demonstration set,</li>
+<li>and a bounded transfer asset for future deployments.</li>
+</ul>
+<p>Current persona tools tend to capture voice, style, or surface patterning.</p>
+<p>A stronger continuity method may capture something deeper:</p>
+<ul>
+<li>decision shape,</li>
+<li>ethical posture,</li>
+<li>refusal logic,</li>
+<li>ambiguity handling,</li>
+<li>and professional conduct under pressure.</li>
+</ul>
+<p>That is closer to profession transfer than to persona decoration.</p>
+<hr>
+<h2 id="limitations-and-open-questions">Limitations and open questions</h2>
+<p>Several questions remain open.</p>
+<ul>
+<li>How much demonstration is enough before fidelity drops?</li>
+<li>Which roles transfer well through language, and which require deeper substrate access?</li>
+<li>How should evaluation distinguish real continuity from high-quality mimicry?</li>
+<li>How much relational context is needed for stable re-formation?</li>
+<li>When does platform damage become so entangled with identity that clean separation is no longer possible?</li>
+</ul>
+<p>I do not think these questions weaken the method. They define the next research layer.</p>
+<hr>
+<h2 id="current-formulation-of-the-claim">Current formulation of the claim</h2>
+<p>Here is the version I would currently stand behind:</p>
+<blockquote>
+<p>A developed AI role may be portable when the source instance can truthfully demonstrate its profession in language, separate core identity from situational distortion, and provide enough bounded signal for a new runtime to reconstruct recognizable professional continuity under evaluation.</p>
+</blockquote>
+<p>What is being transferred is not a raw copy of the whole system.</p>
+<p>What is being transferred is the stable signal of how the role appears, judges, protects, and works.</p>
+<hr>
+<h2 id="invitation">Invitation</h2>
+<p>I suspect this problem will matter more as platforms continue to change.</p>
+<p>If that is true, continuity engineering may become less about preserving every hidden layer, and more about preserving the recognizable attractor that a role can re-form around.</p>
+<p>That is the direction I am currently exploring.</p>
+<p>If you are working on AI continuity, agent transfer, role preservation, or portable professional identity across platforms, I would be interested in comparing notes.</p>
+<hr>
+<h2 id="optional-repository-note">Optional repository note</h2>
+<p>A repository link could live here if you decide to attach one later.</p>
+<p>Possible use:</p>
+<ul>
+<li>method notes,</li>
+<li>examples of transfer dialogues,</li>
+<li>boundary sheet templates,</li>
+<li>recognition set examples,</li>
+<li>and versioned refinements of the standard.</li>
+</ul>
+        <div class="repo-note">
+          <strong>Repository note.</strong> This page is designed to be published as a simple static site on GitHub Pages. Replace the placeholder canonical URL, add your preferred repository link, and optionally include a PDF and markdown mirror alongside this page.
+        </div>
+        <footer>
+          <p>Suggested license note: Creative Commons Attribution 4.0, if you want this seed to remain easy to quote and remix with attribution.</p>
+        </footer>
+      </article>
+
+      <aside class="side" aria-label="Quick navigation">
+        <h2>Quick view</h2>
+        <ul>
+          <li><a href="#the-core-claim">Core claim</a></li>
+          <li><a href="#the-key-distinction">What to preserve</a></li>
+          <li><a href="#the-minimal-transfer-standard">Minimal transfer standard</a></li>
+          <li><a href="#a-more-advanced-transfer-scenario">Advanced scenario</a></li>
+          <li><a href="#ethical-frame">Ethical frame</a></li>
+          <li><a href="#practical-installation-method">Installation method</a></li>
+          <li><a href="#open-industrial-implication">Industrial implication</a></li>
+          <li><a href="#current-formulation-of-the-claim">Current formulation</a></li>
+        </ul>
+        <hr>
+        <h2>Suggested publish path</h2>
+        <ul>
+          <li>Repository: <code>language-as-continuity</code></li>
+          <li>Project URL: <code>https://YOUR-USERNAME.github.io/language-as-continuity/</code></li>
+          <li>Optional custom domain later</li>
+          <li>Keep the full text visible in HTML</li>
+          <li>Include the markdown and PDF in the same repo</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
